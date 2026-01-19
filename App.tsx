@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
-import { ArtWork } from './types';
-import PuzzleGame from './components/PuzzleGame';
-import { getArtFact } from './services/geminiService';
+import { ArtWork } from './types.ts';
+import PuzzleGame from './components/PuzzleGame.tsx';
+import { getArtFact } from './services/geminiService.ts';
 
 /**
  * Enhanced Proxy URL helper.
